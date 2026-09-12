@@ -1,0 +1,21 @@
+{
+  "name": "planet-projector",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 9000",
+    "build": "vite build",
+    "preview": "vite preview --host --port 9000",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "express": "^5.2.1",
+    "three": "^0.186.0",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
